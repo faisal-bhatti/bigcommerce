@@ -1,0 +1,21 @@
+<div class="jumbotron" data-ng-controller="ProductsCtrl" data-ng-init="find()">
+    <h1>Groove Packer</h1>
+    <p class="lead">Click to import products</p>
+    <!-- <button class="btn btn-primary" ng-click="import()">Import</button> -->
+    Authorize Person?<button class="btn btn-primary" ng-click="authBigcommerce()">click here</button>
+
+</div>
+<table ng-table="tableParams" class="table table-striped">
+  
+  <thead id="head" style="background-color: blue;">
+      <th>id</th>
+      <th>Name</th>
+      <th>SKU</th>
+      <th>Medium Image</th>
+  </thead> 
+
+  <tbody id="tbody">
+  </tbody>
+</table>
+
+<hr>
